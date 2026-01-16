@@ -10,10 +10,6 @@ public class Solution {
                 nums[j] = nums[i];
                 uniqueCount = uniqueCount+1;
             }
-            else
-            {
-                continue;
-            }
         }
         return uniqueCount;
     }
